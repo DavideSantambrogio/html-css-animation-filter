@@ -56,7 +56,7 @@
     transition: 2s
 }
 
-.ex-5-square:hover{
+.ex-5-square:hover {
     height: 100px;
     width: 100px;
     margin: 0;
@@ -67,19 +67,28 @@
     width: 500px;
 }
 
-.ex-6-img:hover{
+.ex-6-img:hover {
     filter: grayscale(1);
-
 }
 
 /* esercizio7 */
 .ex-7-img {
     width: 500px;
+    transition: 2s;
+}
+
+.ex-7-img:hover {
+    filter: grayscale(1);
 }
 
 /* esercizio8 */
 .ex-8-img {
     width: 500px;
+    transition: 2s;
+}
+
+.ex-8-img:hover {
+    filter: sepia(.7);
 }
 
 /* esercizio9 */

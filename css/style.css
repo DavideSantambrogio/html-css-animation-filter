@@ -166,7 +166,7 @@
     height: 20px;
 }
 
-.ex-12-button:hover {
+.ex-12-button:hover .ex-12-top-white{
     animation: top-white 2s linear;
 }
 @keyframes top-white {
@@ -180,6 +180,23 @@
         left: 10%;
     }
 }
+
+.ex-12-button:hover .ex-12-bottom-white{
+    animation: bottom-white 2s linear;
+}
+@keyframes bottom-white {
+    0% {
+        right: 10%;
+    }
+    50% {
+        right: calc(100% - 60px);
+    }
+    100% {
+        right: 20%;
+    }
+}
+
+
 
 
 /* esercizio13 */
